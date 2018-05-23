@@ -3,6 +3,8 @@ body {
     font-weight: bold;
     background: url("../img/bg-tile.jpg") repeat;
     color: #000;
+    margin: 0px;
+    padding: 0px;
 }
 
 a {
@@ -15,12 +17,22 @@ a:visited, a:hover {
     color: #000;
 }
 
+.cover {
+    margin: 10px;
+}
+
+@media only screen and (max-width: 500px) {
+    .cover {
+        width: 300px;
+    }
+}
+
 .media {
     height: 30px;      /* equals max image height */
     max-width: 340px;
     white-space: nowrap;
     text-align: center;
-    margin: 0 auto;
+    margin: 0px auto;
 }
 
 .helper {
@@ -42,10 +54,4 @@ a:visited, a:hover {
 #content {
     margin: 0px auto;
     text-align: center;
-}
-
-@media only screen and (max-width: 500px) {
-    .cover {
-        width: 300px;
-    }
 }
