@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url("../img/bg-tile.jpg") repeat;
+    text-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+a:link {
+    color: #000;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:visited {
+    color: #000;
+}
+
+.page-header {
+    padding: 30px;
+    text-align: center;
+}
+
+.sc-embed {
+    margin: 0px auto;
+    width: 300px;
+    height: 200px;
+}
+
+#content {
+    margin: 0px auto;
+    width: 600px;
+    text-align: center;
+}
+
+#content a span {
+    vertical-align: middle;
+    display: table-cell;
+}
+
+#content a img {
+    height: 20px;
+}
