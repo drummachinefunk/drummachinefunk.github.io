@@ -1,21 +1,37 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
     background: url("../img/bg-tile.jpg") repeat;
-    text-color: black;
+    color: #000;
 }
 
 a {
     text-decoration: none;
-    color: #000;
 }
 a:link {
     color: #000;
 }
-a:hover {
-    text-decoration: underline;
-}
-a:visited {
+a:visited, a:hover {
     color: #000;
+}
+
+.media {
+    height: 30px;      /* equals max image height */
+    max-width: 340px;
+    white-space: nowrap;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.media img {
+    vertical-align: middle;
+    max-height: 30px;
 }
 
 .page-header {
@@ -23,23 +39,13 @@ a:visited {
     text-align: center;
 }
 
-.sc-embed {
-    margin: 0px auto;
-    width: 300px;
-    height: 200px;
-}
-
 #content {
     margin: 0px auto;
-    width: 600px;
     text-align: center;
 }
 
-#content a span {
-    vertical-align: middle;
-    display: table-cell;
-}
-
-#content a img {
-    height: 20px;
+@media only screen and (max-width: 500px) {
+    .cover {
+        width: 300px;
+    }
 }
