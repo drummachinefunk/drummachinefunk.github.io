@@ -1,6 +1,26 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119867172-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-119867172-1');
+    </script>
+      
+      <script>
+          var track = function(link) {
+              var url = link.href;
+              ga('send', 'event', 'outbound', 'click', url, {
+                'transport': 'beacon',
+                'hitCallback': function(){document.location = url;}
+              });
+          }
+      </script>
+    
     <title>Drum Machine Funk</title>
     <meta name="description" content="Drum Machine Funk Record Label site" />
     <meta name="keywords" content="drum,machine,funk,hiphop,boombap,instrumental" />
@@ -41,9 +61,11 @@
     <!-- Page Content >>> -->
     <div id="page-content" class="page-content" role="main">
         <div id="content">
-            <img class="cover" src="img/archives-vinyl.png" srcset="img/archives-vinyl@2x.png 2x" />
+            <a href="https://qrates.com/projects/15862-the-archives" target="_blank" onclick="track(this)">
+                <img class="cover" src="img/archives-vinyl.png" srcset="img/archives-vinyl@2x.png 2x" />
+            </a>
             <br/>
-            <a href="https://qrates.com/projects/15862-the-archives" target="_blank">
+            <a href="https://qrates.com/projects/15862-the-archives" target="_blank" onclick="track(this)">
                 <div class="media">
                     <span class="helper"></span>
                     <img src="img/vinyl-icon.png" srcset="img/vinyl-icon@2x.png 2x" />
@@ -51,7 +73,7 @@
                 </div>
             </a>
             <br/>
-            <a href="https://dilmaddy.bandcamp.com/album/the-archives" target="_blank">
+            <a href="https://dilmaddy.bandcamp.com/album/the-archives" target="_blank" onclick="track(this)">
                 <div class="media">
                     <span class="helper"></span>
                     <img src="img/cassette-icon.png" srcset="img/cassette-icon@2x.png 2x" />
@@ -65,10 +87,10 @@
             </div> -->
         
             <br/>
-            <a href="https://open.spotify.com/album/6EaNMDbLeSZsj5H95iqF2N" target="_blank">
+            <a href="https://open.spotify.com/album/6EaNMDbLeSZsj5H95iqF2N" target="_blank" onclick="track(this)">
                 <img src="img/listen-on-spotify.png" srcset="img/listen-on-spotify@2x.png 2x"/>
             </a>
-            <a href="https://itunes.apple.com/hu/album/the-archives/1384021966" target="_blank">
+            <a href="https://itunes.apple.com/hu/album/the-archives/1384021966" target="_blank" onclick="track(this)">
                 <img src="img/listen-on-applemusic.png" srcset="img/listen-on-applemusic@2x.png 2x"/>
             </a>
         </div>
