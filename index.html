@@ -14,9 +14,9 @@
       <script>
           var track = function(link) {
               var url = link.href;
-              ga('send', 'event', 'outbound', 'click', url, {
-                'transport': 'beacon',
-                'hitCallback': function(){document.location = url;}
+              gtag('event', 'click', {
+                'event_category': 'outbound',
+                'event_label': url
               });
           }
       </script>
