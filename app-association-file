@@ -1,0 +1,11 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "6DS2GKZ2V5.hu.deltaseven.audiobun",
+                "paths": [ "/audiobunny/boards/*"]
+            }
+        ]
+    }
+}
