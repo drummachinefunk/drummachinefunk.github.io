@@ -59,16 +59,8 @@
         -ms-user-select: none;
         user-select: none;
       }
-      .subtext {
-          margin-top: 30px;
-      }
-      
-      .boardlist {
-          margin: 40px 0px;
-          color: #FFFFFF;
-      }
-      
       .boardcell {
+          color: #FFFFFF;
           overflow: auto;
           padding: 10px;
           margin: 10px 0px;
@@ -95,7 +87,12 @@
           margin: 3px 0px;
           color: #ABC5F4;
       }
-      
+      .lightbox {
+          padding: 5px;
+          font-weight: bold;
+          background-color: #FFFFFF;
+          border: 1px solid black;
+      }
       @media (min-width: 768px) {
         .bd-placeholder-img-lg {
           font-size: 3.5rem;
@@ -108,14 +105,31 @@
     <!-- Begin page content -->
 <main role="main" class="flex-shrink-0">
   <div class="container">
-    <h3 class="mt-5"><img src="imgs/LogoMiddle.png" srcset="imgs/LogoMiddle@2x.png 2x"/></h3>
-    <h4 class="mt-5">Organize your digital record collection</h4>
-    <img src="imgs/HalfPhone.jpg" srcset="imgs/HalfPhone@2x.jpg 2x">
+    <div>
+          <img style="float:left; margin-left:-400px; margin-top:100px;" src="imgs/Planet.png" srcset="imgs/Planet@2x.png 2x" />
+          <img style="float:right; margin-right:-300px; margin-top:150px;" src="imgs/PlanetPupu.png" srcset="imgs/PlanetPupu@2x.png 2x" />
+          <img style="float:left; margin-left:-250px; margin-top:140px;" src="imgs/Star1.png" srcset="imgs/Star1@2x.png 2x" />
+          <img style="float:left; margin-left:-30px; margin-top:310px;" src="imgs/Star2.png" srcset="imgs/Star2@2x.png 2x" />
+          <img style="float:left; margin-left:-200px; margin-top:450px;" src="imgs/Record.svg" width="60" />
+          <img style="float:left; margin-left:-320px; margin-top:500px;" src="imgs/Record.svg" width="40" />
+          <img style="float:left; margin-left:-220px; margin-top:620px;" src="imgs/Record.svg" width="40" />
+
+          <img style="float:right; margin-right:-50px; margin-top:350px;" src="imgs/Star2.png" srcset="imgs/Star2@2x.png 2x" />
+          <img style="float:right; margin-right:-300px; margin-top:600px;" src="imgs/Star1.png" srcset="imgs/Star1@2x.png 2x" />
+          <img style="float:right; margin-right:-200px; margin-top:150px;" src="imgs/Record.svg" />
+          <img style="float:right; margin-right:-150px; margin-top:270px;" src="imgs/Record.svg" width="40" />
+    </div>
+    <h3 class="mt-4"><img src="imgs/LogoMiddle.png" srcset="imgs/LogoMiddle@2x.png 2x"/></h3>
+    <h5 class="mt-3">Organize your digital record collection</h5>
+    <img class="mt-3" src="imgs/HalfPhone.jpg" srcset="imgs/HalfPhone@2x.jpg 2x">
     <img src="imgs/LineGlow.jpg" srcset="imgs/LineGlow@2x.jpg 2x">
-    <p class="subtext">Organize your beloved albums to boards. Sit back, relax and enjoy listening to your favourites.</p>
-    <a href="#"><img src="imgs/AppStoreDownload.svg" /></a>
+    <p class="subtext">Organize your beloved albums to boards.<br/>Sit back, relax and enjoy listening to your favourites.</p>
+    <div>
+        <a href="#"><img width="200" src="imgs/AppStoreDownload.svg" /></a>
+    </div>
     
-    <div class="boardlist">
+    <div class="lightbox mt-4">RECENT FEATURED BOARDS</div>
+    <div>
         <div class="boardcell">
             <div class="thumb"><img src="imgs/Board.png" /></div>
             <div class="content">
@@ -133,7 +147,7 @@
             </div>
         </div>
     </div>
-    <img src="imgs/FloatingPhone.png" />
+    <img src="imgs/FloatingPhone.png" srcset="imgs/FloatingPhone@2x.png 2x" />
   </div>
 </main>
 
