@@ -2,50 +2,14 @@
 	"items": [
 		{
 			"type": "board",
-			"title": "Title 1",
-			"text": "Some text",
-			"author": "Author 1",
-			"publish_date": "2020-11-28T19:32:40+0000",
-			"data": "https://drummachinefunk.com/audiobunny/boards/drexciya/drexciya.board",
-			"image": "https://drummachinefunk.com/audiobunny/boards/drexciya/image.jpg"
-		},
-		{
-			"type": "article",
-			"title": "Title 1",
-			"text": "Some text",
-			"author": "Author 1",
-			"publish_date": "2020-11-28T19:32:40+0000",
-			"data": "https://drummachinefunk.com/audiobunny/boards/drexciya/drexciya.board",
-			"image": "https://drummachinefunk.com/audiobunny/boards/drexciya/image.jpg"
-		},
-		{
-			"type": "board",
-			"title": "Title 1",
-			"text": "Some text",
-			"author": "Author 1",
-			"publish_date": "2020-11-28T19:32:40+0000",
-			"data": "https://drummachinefunk.com/audiobunny/boards/drexciya/drexciya.board",
-			"image": "https://drummachinefunk.com/audiobunny/boards/drexciya/image.jpg"
-		},
-		{
-			"type": "board",
-			"title": "Title 1",
-			"text": "Some text",
-			"author": "Author 1",
-			"publish_date": "2020-11-28T19:32:40+0000",
-			"data": "https://drummachinefunk.com/audiobunny/boards/drexciya/drexciya.board",
-			"image": "https://drummachinefunk.com/audiobunny/boards/drexciya/image.jpg"
-		},
-		{
-			"type": "board",
-			"title": "Title 1",
-			"text": "Some text",
-			"author": "Author 1",
-			"publish_date": "2020-11-28T19:32:40+0000",
-			"data": "https://drummachinefunk.com/audiobunny/boards/drexciya/drexciya.board",
-			"image": "https://drummachinefunk.com/audiobunny/boards/drexciya/image.jpg"
+			"title": "Madvillain Samples",
+			"text": "Discover the samples used by Madlib on the collaboration with MF Doom.",
+			"author": "AudioBunny",
+			"publish_date": "2020-12-04T09:00:00+0000",
+			"data": "https://drummachinefunk.com/audiobunny/boards/madvillain-samples/madvillain-samples.board",
+			"image": "https://drummachinefunk.com/audiobunny/boards/madvillain-samples/image.jpg"
 		}
 	],
-	"count": 4,
-	"next": "https://drummachinefunk.com/audiobunny/feed2.json"
+	"count": 1,
+	"next": null
 }
