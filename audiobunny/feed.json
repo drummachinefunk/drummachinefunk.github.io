@@ -2,12 +2,30 @@
 	"items": [
 		{
 			"type": "board",
+			"title": "Donuts Samples",
+			"text": "Discover the samples used by J Dilla on his groundbreaking album Donuts.",
+			"author": "AudioBunny",
+			"publish_date": "2020-12-19T09:00:00+0000",
+			"data": "https://drummachinefunk.com/audiobunny/boards/donuts-samples/donuts-samples.board",
+			"image": "https://drummachinefunk.com/audiobunny/boards/donuts-samples/image.jpg"
+		},
+		{
+			"type": "board",
 			"title": "Madvillain Samples",
 			"text": "Discover the samples used by Madlib on the collaboration with MF Doom.",
 			"author": "AudioBunny",
-			"publish_date": "2020-12-04T09:00:00+0000",
+			"publish_date": "2020-12-19T09:00:00+0000",
 			"data": "https://drummachinefunk.com/audiobunny/boards/madvillain-samples/madvillain-samples.board",
 			"image": "https://drummachinefunk.com/audiobunny/boards/madvillain-samples/image.jpg"
+		},
+		{
+			"type": "board",
+			"title": "SP-1200 Treasures",
+			"text": "A collection of records made on the classic SP-1200 drum machine.",
+			"author": "AudioBunny",
+			"publish_date": "2020-12-19T09:00:00+0000",
+			"data": "https://drummachinefunk.com/audiobunny/boards/sp-1200-treasures-samples/sp-1200-treasures.board",
+			"image": "https://drummachinefunk.com/audiobunny/boards/sp-1200-treasures-samples/image.jpg"
 		}
 	],
 	"count": 1,
