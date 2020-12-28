@@ -1,0 +1,43 @@
+.bunnySection {
+	background-color: #CEDCF3;
+	color: #DD512C;
+}
+.bunnySection #logo {
+    margin: 20px 0px;
+}
+.bunnySection .buttons {
+    margin: 10px 0px;
+    display: inline-block;
+}
+.bunnySection .buttons a {
+    float: left;
+    margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+    .bunnySection {
+        text-align: center;
+    }
+    .bunnySection #logo {
+        align: center;
+    }
+    .bunnySection #tagline {
+        margin: 20px 0px;
+    }
+}
+@media (min-width: 768px) {
+    .bunnySection {
+        text-align: left;
+    }
+    .bunnySection #phone {
+        float: right;
+    }
+    .bunnySection #logo {
+        float: left;
+    }
+    .bunnySection #tagline {
+        float: left;
+        margin-top: 20px;
+        width: 50%;
+    }
+}

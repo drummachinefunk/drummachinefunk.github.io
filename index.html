@@ -15,113 +15,87 @@
 
     <!-- Bootstrap core CSS -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/main.css" rel="stylesheet">
+<link href="css/dpsection.css" rel="stylesheet">
+<link href="css/bunnysection.css" rel="stylesheet">
+<link href="css/labelsection.css" rel="stylesheet">
 
     <!-- Favicons -->
 <link rel="apple-touch-icon" href="imgs/AppleTouchIcon.png" sizes="180x180">
 <link rel="icon" href="imgs/Icon32.png" sizes="32x32" type="image/png">
 <link rel="icon" href="imgs/Icon16.png" sizes="16x16" type="image/png">
-<!--<link rel="manifest" href="/docs/4.5/assets/img/favicons/manifest.json">-->
-<!--<link rel="mask-icon" href="/docs/4.5/assets/img/favicons/safari-pinned-tab.svg" color="#563d7c">-->
 <link rel="icon" href="imgs/favicon.ico">
-<!--<meta name="msapplication-config" content="/docs/4.5/assets/img/favicons/browserconfig.xml">-->
 <meta name="theme-color" content="#563d7c">
 
-    <style>
-        body {
-            font-family: Avenir, sans-serif;
-        }
-        .bunnybg {
-            background-color: #CEDCF3;
-            padding: 40px 0px;
-        }
-        .bunnybg a {
-            color: #FFFFFF;
-            font-weight: bold;
-        }
-        .bunnybg a:hover {
-            color: #CEDCF3;
-        }
-        .labelbg {
-            background-color: #EEEEEE;
-            padding: 40px 0px;
-        }
-        .labelbg a {
-            color: black;
-        }
-        .labelbg a:hover {
-            color: black;
-        }
-        .container {
-          width: auto;
-          max-width: 500px;
-          text-align: center;
-        }
-
-        .footer {
-            border-top: 1px solid black;
-            font-size: 0.8em;
-            background-color: #AAAAAA;
-            color: #ffffff;
-        }
-        .footer a {
-            font-weight: bold;
-            font-style: normal;
-        }
-        
-        .bd-placeholder-img {
-            font-size: 1.125rem;
-            text-anchor: middle;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-        }
-        .lightbox {
-            padding: 5px;
-            font-weight: bold;
-            background-color: #FFFFFF;
-            border: 1px solid black;
-        }
-        @media (min-width: 768px) {
-            .bd-placeholder-img-lg {
-                font-size: 3.5rem;
-            }
-        }
-        .imageContainer {
-            position: relative;
-        }
-        .imageContainer img {
-            margin: 0 auto;
-        }
-        
-        @keyframes MoveUpDown {
-            0%, 100% {
-                top: 0px;
-            }
-            50% {
-                top: 5px;
-            }
-        }
-    </style>
-    <!-- Custom styles for this template -->
   </head>
 <body class="d-flex flex-column h-100">
     <!-- Begin page content -->
     <main role="main" class="flex-shrink-0">
-        <div class="bunnybg">
+        <div class="bunnySection section">
             <div class="container">
-                <a href="audiobunny/">
-                    <img src="imgs/WebCenterIllustration.png" srcset="imgs/WebCenterIllustration@2x.png 2x" />
-                    <h3 class="mt-4"><img src="imgs/LogoMiddle.png" srcset="imgs/LogoMiddle@2x.png 2x"/></h3>
-                </a>
+                <div id="logo">
+                    <a href="/audiobunny/">
+                        <img src="imgs/BunnyLogoMiddle.png" srcset="imgs/BunnyLogoMiddle@2x.png 2x" alt="AudioBunny" />
+                    </a>
+                </div>
+                <div id="phone">
+                    <a href="/audiobunny/">
+                        <img style="width: 100%; max-width: 500px;" src="imgs/WebBunnyPhone.png" srcset="imgs/WebBunnyPhone@2x.png 2x" />
+                    </a>
+                </div>
+                <div id="tagline">
+                    <h2>Organize your digital record collection</h2>
+                    <div class="buttons">
+                        <a href="https://apps.apple.com/us/app/audio-bunny/id1521653318" target="_blank"><img src="imgs/WebAppStoreButton.png" srcset="imgs/WebAppStoreButton@2x.png 2x" /></a>
+                        <a href="https://instagram.com/audiobunny" target="_blank"><img src="imgs/WebInstagramLogoDark.png" srcset="imgs/WebInstagramLogoDark@2x.png 2x" /></a>
+                        <div style="clear: both;"></div>
+                    </div>
+                </div>
+                <div style="clear: both;"></div>
+                <a class="infoButton" href="/audiobunny/">More</a>
             </div>
         </div>
-        <div class="labelbg">
+        <div class="labelSection section">
             <div class="container">
-                <a href="label/">
-                    <img class="cover" src="img/archives-vinyl.png" srcset="img/archives-vinyl@2x.png 2x" />
-                    <h4>Record Label</h4>
-                </a>
+                    <div id="logo">
+                        <img src="imgs/dmf-logo.png" srcset="imgs/dmf-logo@2x.png 2x" />
+                    </div>
+                    <div id="record">
+                        <img style="width: 100%; max-width: 500px;" src="imgs/archives-vinyl.png" srcset="imgs/archives-vinyl@2x.png 2x" />
+                    </div>
+                    <div id="tagline">
+                    <h2>Dil Maddy: The Archives available now!</h2>
+                    <div class="buttons">
+                        <a href="https://instagram.com/drummachinefunk"><img src="imgs/WebInstagramLogoDark.png" srcset="imgs/WebInstagramLogoDark@2x.png 2x" /></a>
+                        <a href="#" target="_blank"><img src="imgs/WebListenOnAppleMusic.png" srcset="imgs/WebListenOnAppleMusic@2x.png 2x" alt="Listen on Apple Music" /></a>
+                        <a href="label/" target="_blank"><img src="imgs/WebListenOnSpotify.png" srcset="imgs/WebListenOnSpotify@2x.png 2x" alt="Listen on Spotify" /></a>
+                        <div style="clear: both;"></div>
+                    </div>
+                </div>
+                <div style="clear: both;"></div>
+                <a class="right infoButton" href="/label/" class="infoButton">More</a>
+            </div>
+        </div>
+        <div class="section dpSection">
+            <div class="container">
+                <div id="logo"><img src="imgs/WebDpLogo.png" srcset="imgs/WebDpLogo@2x.png 2x" /></div>
+                
+                <div id="unit">
+                    <img style="position:relative; width:100%; max-width: 518px;" src="imgs/WebDpUnit.png" srcset="imgs/WebDpUnit@2x.png 2x" />
+                </div>
+                <div style="clear: both;"></div>
+                <div id="ipad">
+                    <img style="position:relative; width:100%; max-width: 518px;" src="imgs/WebDpControllerIpad.png" srcset="imgs/WebDpControllerIpad@2x.png 2x" />
+                </div>
+                <div id="tagline">
+                    <h2>Control your DP/4 effects processor from your iPad</h2>
+                    <div class="buttons">
+                        <a href="https://apps.apple.com/us/app/idp-4/id1526481455" target="_blank"><img src="imgs/WebAppStoreButton.png" srcset="imgs/WebAppStoreButton@2x.png 2x" /></a>
+                        <a href="https://instagram.com/drummachinefunk"><img src="imgs/WebInstagramLogoLight.png" srcset="imgs/WebInstagramLogoLight@2x.png 2x" /></a>
+                        <div style="clear: both;"></div>
+                    </div>
+                </div>
+                <div style="clear: both;"></div>
             </div>
         </div>
     </main>

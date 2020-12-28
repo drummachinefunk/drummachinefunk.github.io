@@ -1,0 +1,52 @@
+.dpSection {
+    color: white;
+    background-color: black;
+}
+.dpSection a {
+    color: white;
+}
+.dpSection #logo {
+    margin: 20px 0px;
+}
+.dpSection .buttons {
+    margin: 10px 0px;
+    display: inline-block;
+}
+.dpSection .buttons a {
+    float: left;
+    margin-right: 10px;
+}
+@media (max-width: 768px) {
+    .dpSection {
+        text-align: center;
+    }
+    .dpSection #unit {
+    }
+    .dpSection #logo {
+        align: center;
+    }
+    .dpSection #ipad {
+    }
+    .dpSection #tagline {
+        margin: 20px 0px;
+    }
+}
+@media (min-width: 768px) {
+    .dpSection {
+        text-align: left;
+    }
+    .dpSection #unit {
+        float:right;
+    }
+    .dpSection #logo {
+        float: left;
+    }
+    .dpSection #ipad {
+        float:right;
+    }
+    .dpSection #tagline {
+        float: left;
+        margin: 40px 0px;
+        width: 40%;
+    }
+}

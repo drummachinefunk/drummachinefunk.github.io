@@ -1,0 +1,48 @@
+.labelSection {
+  color: black;
+  background-color: #EEEEEE;
+}
+.labelSection #logo {
+    margin: 20px 0px;
+}
+.labelSection .buttons {
+    margin: 10px 0px;
+    display: inline-block;
+}
+.labelSection .buttons a {
+    float: left;
+    margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+    .labelSection {
+        text-align: center;
+    }
+    .labelSection #logo {
+        align: center;
+    }
+    .labelSection #tagline {
+        margin: 20px 0px;
+    }
+}
+@media (min-width: 768px) {
+    .labelSection {
+        text-align: right;
+    }
+    .labelSection #record {
+        float: left;
+				width: 50%;
+    }
+		.labelSection #record img {
+			position: relative;
+			left: -15%;
+		}
+    .labelSection #logo {
+        float: right;
+    }
+    .labelSection #tagline {
+        float: right;
+        margin: 40px 0px;
+        width: 50%;
+    }
+}
