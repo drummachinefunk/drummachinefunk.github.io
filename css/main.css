@@ -9,6 +9,14 @@ body {
 .section {
     padding: 50px 0px;
 }
+ul.buttons {
+    margin: 10px 0px;
+		padding: 0px;
+}
+ul.buttons li {
+		margin-top: 5px;
+		display: inline-block;
+}
 .footer {
     border-top: 1px solid black;
     font-size: 0.8em;

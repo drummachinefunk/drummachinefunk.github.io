@@ -5,16 +5,6 @@
 .labelSection #logo {
     margin: 20px 0px;
 }
-.labelSection .buttons {
-    margin: 10px 0px;
-    display: inline-block;
-}
-.labelSection .buttons a {
-	display: inline-block;
-	margin-left: 10px;
-	margin-top: 10px;
-}
-
 @media (max-width: 768px) {
     .labelSection {
         text-align: center;

@@ -8,14 +8,6 @@
 .dpSection #logo {
     margin: 20px 0px;
 }
-.dpSection .buttons {
-    margin: 10px 0px;
-    display: inline-block;
-}
-.dpSection .buttons a {
-    float: left;
-    margin-right: 10px;
-}
 @media (max-width: 768px) {
     .dpSection {
         text-align: center;
