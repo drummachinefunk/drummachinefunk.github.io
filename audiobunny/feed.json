@@ -2,6 +2,15 @@
 	"items": [
 		{
 			"type": "board",
+			"title": "MF DOOM",
+			"text": "Remembering a true pioneer of innovative wordplay and mind-bending metaphors: MF DOOM.",
+			"author": "AudioBunny",
+			"publish_date": "2021-01-01T20:00:00+0000",
+			"data": "https://drummachinefunk.com/audiobunny/boards/mf-doom/mf-doom.board",
+			"image": "https://drummachinefunk.com/audiobunny/boards/mf-doom/image.jpg"
+		},
+		{
+			"type": "board",
 			"title": "Donuts Samples",
 			"text": "Discover the samples used by J Dilla on his groundbreaking album Donuts.",
 			"author": "AudioBunny",
