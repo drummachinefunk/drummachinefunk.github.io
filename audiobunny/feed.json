@@ -2,6 +2,15 @@
 	"items": [
 		{
 			"type": "board",
+			"title": "Larry Heard",
+			"text": "Often refferred to as the godfather of deep house Larry Heard a.ka. Mr Fingers delivers soulful, heart-warming rhythm tracks and futuristic synth driven sci-fi grooves.",
+			"author": "AudioBunny",
+			"publish_date": "2021-01-03T14:00:00+0000",
+			"data": "https://drummachinefunk.com/audiobunny/boards/larry-heard/larry-heard.board",
+			"image": "https://drummachinefunk.com/audiobunny/boards/larry-heard/image.jpg"
+		},
+		{
+			"type": "board",
 			"title": "MF DOOM",
 			"text": "Remembering a true pioneer of innovative wordplay and mind-bending metaphors: MF DOOM.",
 			"author": "AudioBunny",
