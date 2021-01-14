@@ -17,8 +17,13 @@ ul.buttons li {
 		margin-top: 5px;
 		display: inline-block;
 }
+#header {
+	padding: 20px 0px 10px 0px;
+	text-align: center;
+	border-bottom: 1px solid #EEEEEE;
+}
 .footer {
-    border-top: 1px solid black;
+		border-top: 1px solid #EEEEEE;
     font-size: 0.8em;
     background-color: white;
     color: black;
@@ -47,4 +52,34 @@ ul.buttons li {
   color: black;
 	text-decoration: none;
   box-shadow: 0 0px 0px #666666;
+}
+
+.aboutSection {
+  color: black;
+  background-color: #F2F2F2;
+  text-align: center;
+}
+.aboutSection #logo {
+    margin: 20px 0px;
+}
+.aboutSection #logo {
+    align: center;
+}
+.aboutSection #tagline {
+    margin: 20px 0px;
+}
+
+ul.navigation {
+    margin: 20px 0px 0px 0px;
+		padding: 0px;
+}
+ul.navigation li {
+		display: inline-block;
+		margin-right: 10px;
+}
+ul.navigation li:last-child {
+ margin-right: 0px;
+}
+ul.navigation a {
+	color: black;
 }
