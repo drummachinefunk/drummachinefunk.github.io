@@ -17,6 +17,9 @@ ul.buttons li {
 		margin-top: 5px;
 		display: inline-block;
 }
+header {
+	background-color: white;
+}
 #header {
 	background-color: white;
 	padding: 20px 0px 10px 0px;

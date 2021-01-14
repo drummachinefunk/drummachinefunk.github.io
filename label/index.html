@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="en">
+<html dir="ltr" lang="en" class="h-100">
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119867172-1"></script>
@@ -43,20 +43,21 @@
     <!-- Encoding & CSS & JS >>> -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/main.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" />
     <!-- JS -->
     <!-- HTML5 Compatibility -->
     <!--[if lt IE 10]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <!-- <<< Encoding & CSS & JS -->
 </head>
-<body>
-    <!-- Page Header >>> -->
+<body class="d-flex flex-column h-100">
+
     <header>
         <div class="container box-shadow" id="header">
             <div id="logo">
                 <a href="/">
-                    <img src="/imgs/dmf-logo.png" srcset="/imgs/dmf-logo@2x.png 2x" />
+                    <img src="../imgs/dmf-logo.png" srcset="../imgs/dmf-logo@2x.png 2x" />
                 </a>
                 <ul class="navigation">
                     <li><a href="/">Applications</a></li>
@@ -66,50 +67,46 @@
             </div>
         </div>
     </header>
-    <!-- <<< Page Header -->
 
-    <!-- Page Content >>> -->
-    <div id="page-content" class="page-content" role="main">
-        <div id="content">
+    <main role="main" class="flex-shrink-0">
+        
+        <div class="container mt-4" id="content">
             <a href="https://qrates.com/projects/15862-the-archives" target="_blank" onclick="track(this)">
                 <img class="cover" src="img/archives-vinyl.png" srcset="img/archives-vinyl@2x.png 2x" />
             </a>
             <br/>
-            <a href="https://qrates.com/projects/15862-the-archives" target="_blank" onclick="track(this)">
-                <div class="media">
-                    <span class="helper"></span>
+            <div class="mt-2">
+                <a class="mt-2" href="https://qrates.com/projects/15862-the-archives" target="_blank" onclick="track(this)">
                     <img src="img/vinyl-icon.png" srcset="img/vinyl-icon@2x.png 2x" />
                     <span>PRE-ORDER VINYL</span>
-                </div>
-            </a>
-            <br/>
-            <a href="https://dilmaddy.bandcamp.com/album/the-archives" target="_blank" onclick="track(this)">
-                <div class="media">
-                    <span class="helper"></span>
+                </a>
+            </div>
+            <div class="mt-2">
+                <a href="https://dilmaddy.bandcamp.com/album/the-archives" target="_blank" onclick="track(this)">
                     <img src="img/cassette-icon.png" srcset="img/cassette-icon@2x.png 2x" />
                     <span>BUY LIMITED EDITION CASSETTE</span>
-                </div>
-            </a>
-            <br/>
-        
+                </a>
+            </div>
             <!-- <div class="sc-embed">
                 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/446709159&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
             </div> -->
-        
-            <br/>
+
+            <div class="mt-4">
             <a href="https://open.spotify.com/album/6EaNMDbLeSZsj5H95iqF2N" target="_blank" onclick="track(this)">
                 <img src="img/listen-on-spotify.png" srcset="img/listen-on-spotify@2x.png 2x"/>
             </a>
             <a href="https://itunes.apple.com/hu/album/the-archives/1384021966" target="_blank" onclick="track(this)">
                 <img src="img/listen-on-applemusic.png" srcset="img/listen-on-applemusic@2x.png 2x"/>
             </a>
+            </div>
         </div>
     </div>
-    <!-- <<< Page Content -->
+    </main>
 
-    <!-- Page Footer >>> -->
-    <footer id="page-footer" class="page-footer">
+    <footer class="footer mt-auto py-3">
+        <div class="container" id="footer">
+            <span><em>Created with <img src="../imgs/HeartIcon.png" /> in Budapest</em></span>
+        </div>
     </footer>
-    <!-- <<< Page Footer -->
 </body>
 </html>
