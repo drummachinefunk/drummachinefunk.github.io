@@ -1,74 +1,81 @@
-<!DOCTYPE html>
-<html dir="ltr" lang="en">
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119867172-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-119867172-1');
-    </script>
-      
-      <script>
-          var track = function(link) {
-              var url = link.href;
-              gtag('event', 'click', {
-                'event_category': 'outbound',
-                'event_label': url
-              });
-          }
-      </script>
-    
-    <title>Drum Machine Funk - Bankrobber</title>
-    <meta name="description" content="Bankrobber Roland SP-404SX bank editor" />
-    <meta name="keywords" content="drum,machine,funk,hiphop,boombap,instrumental,bankrobber" />
-    <link rel="canonical" href="" />
-
-    <meta name="content-language" content="en" />
-    <meta http-equiv="Content-Language" content="en" />
-
-    <!-- Open Graph >>> -->
-    <meta property="og:title" content="Drum Machine Funk" />
-    <meta property="og:description" content="Budapest based record label" />
-    <meta property="og:url" content="" />
-    <meta property="og:site_name" content="Drum Machine Funk" />
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Bankrobber - Sample organizer for the Roland SP-404SX groove sampler">
+    <meta name="author" content="Drum Machine Funk">
+    <meta property="og:title" content="Drum Machine Funk - Bankrobber" />
+    <meta property="og:description" content="Bankrobber - Sample organizer for the Roland SP-404SX groove sampler" />
     <meta property="og:type" content="website" />
-    <!-- <<< Open Graph -->
-
-    <meta name="viewport" content="initial-scale=1.0" />
-    <link rel="shortcut icon" href="img/favicon.ico" />
+    <meta property="og:url" content="https://drummachinefunk.com/bankrobber/" />
     
-    <!-- Encoding & CSS & JS >>> -->
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="/css/styles.css" />
-    <!-- JS -->
-    <!-- HTML5 Compatibility -->
-    <!--[if lt IE 10]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-    <!-- <<< Encoding & CSS & JS -->
+    <title>Drum Machine Funk</title>
+
+    <!-- Bootstrap core CSS -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/main.css" rel="stylesheet">
+
+    <!-- Favicons -->
+<link rel="icon" href="../imgs/favicon.ico">
 </head>
-<body>
-    <!-- Page Header >>> -->
-    <header id="page-header" class="page-header">
-
-        <img src="/img/dmf-logo.png" srcset="/img/dmf-logo@2x.png 2x" />
-
-    </header>
-    <!-- <<< Page Header -->
-
-    <!-- Page Content >>> -->
-    <div id="page-content" class="page-content" role="main">
-        <div id="content">
-            Bankrobber
+<body class="d-flex flex-column h-100">
+    <header>
+        <div class="container box-shadow" id="header">
+            <div id="logo">
+                <a href="/">
+                    <img src="imgs/dmf-logo.png" srcset="../imgs/dmf-logo@2x.png 2x" />
+                </a>
+                <ul class="navigation">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/applications/">Applications</a></li>
+                    <li><a href="/label/">Record Label</a></li>
+                    <li><a href="/about/">About</a></li>
+                </ul>
+            </div>
         </div>
-    </div>
-    <!-- <<< Page Content -->
+    </header>
+    <!-- Begin page content -->
+    <main role="main" class="flex-shrink-0">
+        <div class="container mt-4">
+            <div style="text-align: center;">
+                <h1>Bankrobber 1.0.4</h1>
+               <span>Sample organizer for the Roland SP-404SX groove sampler</span>
+            </div>
+            
+            <img style="width:100%;" src="../imgs/bankrobber.png" srcset="../imgs/bankrobber@2x.png 2x"/>
 
-    <!-- Page Footer >>> -->
-    <footer id="page-footer" class="page-footer">
-    </footer>
-    <!-- <<< Page Footer -->
+            <div class="mt-4">
+            <p>Bankrobber is a sample organizer for MacOS and Windows. It allows you browse your SP-404SX SD card, drag and drop samples, edit sample parameters and export your modified bank layout back to the SD card.</p>
+            <p>Bankrobber was concieved on the summer of 2011 and released as a freeware software. Over the years our website and download links went down but today we present you with an updated installer that doesn't need any workarounds. We hope you still find it useful, enjoy!</p>
+            
+            <p>Please consider making a donation if you find this software useful. Thank you!</p>
+            <form action="https://www.paypal.com/donate" method="post" target="_top">
+            <input type="hidden" name="business" value="ETYWL43KA4D7Y" />
+            <input type="hidden" name="currency_code" value="USD" />
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+            <img alt="" border="0" src="https://www.paypal.com/en_HU/i/scr/pixel.gif" width="1" height="1" />
+            </form>
+            </div>
+            
+            <div class="mt-4">
+                <h3>Installation</h3>
+                <ul>
+                    <li>Bankrobber requires Adobe AIR to run. You can download the final version of the runtime here: <a href="https://www.techspot.com/downloads/5059-adobe-air.html" target="_blank">Adobe AIR Installer</a></li>
+                    <li>Download and install BankRobber: <a href="/files/bankrobber_0_1_4.air">Bankrobber v1.0.4</a></li>
+                    <li>...</li>
+                    <li>Profit!</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+<footer class="footer mt-auto py-3">
+  <div class="container" id="footer">
+    <em>Created with <img src="../imgs/HeartIcon.png" /> in Budapest</em>
+    <div><em>© 2021, Drum Machine Funk</em></div>
+  </div>
+</footer>
 </body>
 </html>
+
