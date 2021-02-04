@@ -87,3 +87,171 @@ ul.navigation li:last-child {
 ul.navigation a {
 	color: black;
 }
+
+/* DP Section */
+
+.dpSection {
+    color: white;
+    background-color: black;
+}
+.dpSection a {
+    color: white;
+}
+.dpSection #logo {
+    margin: 20px 0px;
+}
+@media (max-width: 768px) {
+    .dpSection {
+        text-align: center;
+    }
+    .dpSection #unit {
+    }
+    .dpSection #logo {
+        align: center;
+    }
+    .dpSection #ipad {
+    }
+    .dpSection #tagline {
+        margin: 20px 0px;
+    }
+}
+@media (min-width: 768px) {
+    .dpSection {
+        text-align: left;
+    }
+    .dpSection #unit {
+        float:right;
+    }
+    .dpSection #logo {
+        float: left;
+    }
+    .dpSection #ipad {
+        float:right;
+    }
+    .dpSection #tagline {
+        float: left;
+        margin: 40px 0px;
+        width: 40%;
+    }
+}
+
+/* Label section */
+.labelSection {
+  color: black;
+  background-color: #F2F2F2;
+}
+.labelSection #logo {
+    margin: 20px 0px;
+}
+@media (max-width: 768px) {
+    .labelSection {
+        text-align: center;
+    }
+    .labelSection #logo {
+        align: center;
+    }
+    .labelSection #tagline {
+        margin: 20px 0px;
+    }
+}
+@media (min-width: 768px) {
+    .labelSection {
+        text-align: right;
+    }
+    .labelSection #record {
+        float: left;
+				width: 50%;
+    }
+		.labelSection #record img {
+			position: relative;
+			left: -15%;
+		}
+    .labelSection #logo {
+        float: right;
+    }
+    .labelSection #tagline {
+        float: right;
+        margin: 40px 0px;
+        width: 50%;
+    }
+}
+
+/* Bunny section*/
+
+.bunnySection {
+	background-color: #CEDCF3;
+	color: #DD512C;
+}
+.bunnySection #logo {
+    margin: 20px 0px;
+}
+
+@media (max-width: 768px) {
+    .bunnySection {
+        text-align: center;
+    }
+    .bunnySection #logo {
+        align: center;
+    }
+    .bunnySection #tagline {
+        margin: 20px 0px;
+    }
+}
+@media (min-width: 768px) {
+    .bunnySection {
+        text-align: left;
+    }
+    .bunnySection #phone {
+        float: right;
+    }
+    .bunnySection #logo {
+        float: left;
+    }
+    .bunnySection #tagline {
+        float: left;
+        margin-top: 20px;
+        width: 50%;
+    }
+}
+
+/* SPL Section */
+
+.splSection {
+	background-color: #E0E0E0;
+	color: black;
+	background-image: url('imgs/SPL12StarBackground.png');
+	background-repeat: repeat;
+	text-align: center;
+}
+.splSection #logo {
+    margin: 20px 0px;
+}
+
+@media (max-width: 768px) {
+    .splSection {
+        text-align: center;
+    }
+    .splSection #logo {
+        align: center;
+    }
+    .splSection #tagline {
+        margin: 20px 0px;
+    }
+}
+@media (min-width: 768px) {
+    .splSection {
+        text-align: left;
+    }
+    .splSection #phone {
+        float: right;
+    }
+    .splSection #logo {
+        float: left;
+    }
+    .splSection #tagline {
+        float: left;
+        margin-top: 20px;
+        width: 50%;
+    }
+}
+
