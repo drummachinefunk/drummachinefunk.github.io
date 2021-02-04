@@ -219,7 +219,7 @@ ul.navigation a {
 .splSection {
 	background-color: #E0E0E0;
 	color: black;
-	background-image: url('imgs/SPL12StarBackground.png');
+	background-image: url("/imgs/SPL12StarBackground.png");
 	background-repeat: repeat;
 	text-align: center;
 }
