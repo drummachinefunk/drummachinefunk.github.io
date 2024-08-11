@@ -11,11 +11,20 @@ body {
 }
 ul.buttons {
     margin: 10px 0px;
-		padding: 0px;
+	padding: 0px;
 }
 ul.buttons li {
-		margin-top: 5px;
-		display: inline-block;
+	margin-top: 5px;
+	display: inline-block;
+}
+ul.storeButtons {
+	margin: 10px 0px;
+	padding: 0px;
+}
+ul.storeButtons li {
+	margin-right: 10px;
+	margin-bottom: 10px;
+	display: inline-block;
 }
 header {
 	background-color: white;
@@ -212,6 +221,13 @@ ul.navigation a {
         margin-top: 20px;
         width: 50%;
     }
+}
+
+/* Cornerman section */
+
+.cmSection {
+	color: white;
+	background-color: #213952;
 }
 
 /* SPL Section */
