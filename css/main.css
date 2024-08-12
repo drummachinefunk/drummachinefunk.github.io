@@ -228,6 +228,7 @@ ul.navigation a {
 .cmSection {
 	color: white;
 	background-color: #213952;
+	overflow: hidden;
 }
 
 /* SPL Section */
