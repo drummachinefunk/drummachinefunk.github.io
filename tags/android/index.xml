@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Android on Drum Machine Funk</title>
+    <link>https://drummachinefunk.com/tags/android/</link>
+    <description>Recent content in Android on Drum Machine Funk</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 Apr 2025 13:31:37 +0200</lastBuildDate>
+    <atom:link href="https://drummachinefunk.com/tags/android/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cornerman</title>
+      <link>https://drummachinefunk.com/apps/cornerman/</link>
+      <pubDate>Thu, 17 Apr 2025 13:31:37 +0200</pubDate>
+      <guid>https://drummachinefunk.com/apps/cornerman/</guid>
+      <description>&lt;p&gt;Cornerman is a companion app for the Teenage Engineering KO II sampler composer.&lt;br&gt;&#xA;The app uses a USB-C connection to save and restore backups from the KO II.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bassliner</title>
+      <link>https://drummachinefunk.com/apps/bassliner/</link>
+      <pubDate>Wed, 16 Apr 2025 13:31:37 +0200</pubDate>
+      <guid>https://drummachinefunk.com/apps/bassliner/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SPL-44</title>
+      <link>https://drummachinefunk.com/apps/spl44/</link>
+      <pubDate>Wed, 16 Apr 2025 02:08:17 +0200</pubDate>
+      <guid>https://drummachinefunk.com/apps/spl44/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SPL-12</title>
+      <link>https://drummachinefunk.com/apps/spl12/</link>
+      <pubDate>Tue, 15 Apr 2025 13:31:37 +0200</pubDate>
+      <guid>https://drummachinefunk.com/apps/spl12/</guid>
+      <description>&lt;p&gt;The SPL-12 Sampling Percussion Librarian is a companion app for the E-mu SP-12 Sampling Percussion drum machine.The application makes no sound on it&amp;rsquo;s own. It&amp;rsquo;s purpuse is to provide a convenient way to save and load sequencer and sound memory data via a MIDI connection.We hope enthusiasts will find this utility useful and keep the spirit of 12-bit sampling alive for many years to come. Enjoy!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lahmacun Radio</title>
+      <link>https://drummachinefunk.com/apps/lahmacun-radio/</link>
+      <pubDate>Fri, 11 Apr 2025 17:29:29 +0200</pubDate>
+      <guid>https://drummachinefunk.com/apps/lahmacun-radio/</guid>
+      <description>&lt;p&gt;Lahmacun Radio is a Budapest-based online community radio station founded in 2018, showcasing the city’s various subcultures and musical scenes. The station&amp;rsquo;s studio is located in Kazán Community House, situated in District VIII, on the grounds of a former factory that now hosts numerous cultural and social projects.&lt;/p&gt;&#xA;&lt;p&gt;Lahmacun Radio works not only with local but also international hosts, including contributors from Brussels, Edinburgh, Berlin, San Francisco, and Belgrade. Additionally, it collaborates with other online radio stations such as Radio Kapital from Poland, Cashmere Radio from Germany, and IDA Radio from Estonia.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
