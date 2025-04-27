@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Label on Drum Machine Funk</title>
-    <link>https://drummachinefunk.com/tags/label/</link>
+    <link>http://localhost:1313/tags/label/</link>
     <description>Recent content in Label on Drum Machine Funk</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 17 Apr 2025 12:57:20 +0200</lastBuildDate>
-    <atom:link href="https://drummachinefunk.com/tags/label/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/label/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dil Maddy - The Archives</title>
-      <link>https://drummachinefunk.com/label/dil_maddy_the_archives/</link>
+      <link>http://localhost:1313/label/dil_maddy_the_archives/</link>
       <pubDate>Thu, 17 Apr 2025 12:57:20 +0200</pubDate>
-      <guid>https://drummachinefunk.com/label/dil_maddy_the_archives/</guid>
+      <guid>http://localhost:1313/label/dil_maddy_the_archives/</guid>
       <description>&lt;p&gt;Hungary&amp;rsquo;s renown beatmaker, Dil Maddy presents &amp;ldquo;The Archives&amp;rdquo; - a collection of carefully crafted beats from the heart of Budapest.&#xA;It&amp;rsquo;s the first time these songs are presented in their full instrumental glory venturing into heavy hitting boom bap bangers, melancholic breakbeat soundscapes and soulful sample puzzles. The tracks include beats from previous collaborations, remixes and one-offs spanning almost a decade in the making.&lt;/p&gt;&#xA;&lt;p&gt;All tracks have been produced &amp;amp; mixed by Dil Maddy on the MPC2000XL, MPC60, S1000 and S3000 using vinyl samples between 2010 and 2017 in Budapest, Hungary.&lt;/p&gt;</description>
     </item>
   </channel>
