@@ -6,7 +6,7 @@
     <description>Recent content in Android on Drum Machine Funk</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Apr 2025 13:31:37 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 28 Apr 2025 09:05:44 +0200</lastBuildDate>
     <atom:link href="https://drummachinefunk.com/tags/android/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cornerman</title>
@@ -23,13 +23,6 @@
       <description></description>
     </item>
     <item>
-      <title>SPL-44</title>
-      <link>https://drummachinefunk.com/apps/spl44/</link>
-      <pubDate>Wed, 16 Apr 2025 02:08:17 +0200</pubDate>
-      <guid>https://drummachinefunk.com/apps/spl44/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>SPL-12</title>
       <link>https://drummachinefunk.com/apps/spl12/</link>
       <pubDate>Tue, 15 Apr 2025 13:31:37 +0200</pubDate>
@@ -37,11 +30,25 @@
       <description>&lt;p&gt;The SPL-12 Sampling Percussion Librarian is a companion app for the E-mu SP-12 Sampling Percussion drum machine.The application makes no sound on it&amp;rsquo;s own. It&amp;rsquo;s purpuse is to provide a convenient way to save and load sequencer and sound memory data via a MIDI connection.We hope enthusiasts will find this utility useful and keep the spirit of 12-bit sampling alive for many years to come. Enjoy!&lt;/p&gt;</description>
     </item>
     <item>
+      <title>SPL-44</title>
+      <link>https://drummachinefunk.com/apps/spl44/</link>
+      <pubDate>Wed, 16 Apr 2025 02:08:17 +0200</pubDate>
+      <guid>https://drummachinefunk.com/apps/spl44/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Lahmacun Radio</title>
       <link>https://drummachinefunk.com/apps/lahmacun-radio/</link>
       <pubDate>Fri, 11 Apr 2025 17:29:29 +0200</pubDate>
       <guid>https://drummachinefunk.com/apps/lahmacun-radio/</guid>
       <description>&lt;p&gt;Lahmacun Radio is a Budapest-based online community radio station founded in 2018, showcasing the city’s various subcultures and musical scenes. The station&amp;rsquo;s studio is located in Kazán Community House, situated in District VIII, on the grounds of a former factory that now hosts numerous cultural and social projects.&lt;/p&gt;&#xA;&lt;p&gt;Lahmacun Radio works not only with local but also international hosts, including contributors from Brussels, Edinburgh, Berlin, San Francisco, and Belgrade. Additionally, it collaborates with other online radio stations such as Radio Kapital from Poland, Cashmere Radio from Germany, and IDA Radio from Estonia.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pixel Works</title>
+      <link>https://drummachinefunk.com/apps/pixel-works/</link>
+      <pubDate>Mon, 28 Apr 2025 09:05:44 +0200</pubDate>
+      <guid>https://drummachinefunk.com/apps/pixel-works/</guid>
+      <description>&lt;p&gt;Pixel Works is a graphics application to design small pixel graphics, animations and fonts for monochrome displays.&#xA;Design small animations and pixel fonts for embedded projects and OLED screens.&lt;/p&gt;&#xA;&lt;p&gt;The application supports export to animated GIF and &lt;a href=&#34;https://github.com/adafruit/Adafruit-GFX-Library&#34;&gt;GFXFont&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
