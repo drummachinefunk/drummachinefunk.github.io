@@ -6,7 +6,7 @@
     <description>Recent content on Drum Machine Funk</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Apr 2025 09:05:44 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 15:30:00 +0200</lastBuildDate>
     <atom:link href="https://drummachinefunk.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cornerman</title>
@@ -70,6 +70,13 @@
       <pubDate>Mon, 28 Apr 2025 09:05:44 +0200</pubDate>
       <guid>https://drummachinefunk.com/apps/pixel-works/</guid>
       <description>&lt;p&gt;Pixel Works is a graphics application to design small pixel graphics, animations and fonts for monochrome displays.&#xA;Design small animations and pixel fonts for embedded projects and OLED screens.&lt;/p&gt;&#xA;&lt;p&gt;The application supports export to animated GIF and &lt;a href=&#34;https://github.com/adafruit/Adafruit-GFX-Library&#34;&gt;GFXFont&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SPM-12</title>
+      <link>https://drummachinefunk.com/apps/spm12/</link>
+      <pubDate>Tue, 06 Oct 2026 15:30:00 +0200</pubDate>
+      <guid>https://drummachinefunk.com/apps/spm12/</guid>
+      <description></description>
     </item>
     <item>
       <title>Dil Maddy - The Archives</title>

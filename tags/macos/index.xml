@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Macos on Drum Machine Funk</title>
+    <link>https://drummachinefunk.com/tags/macos/</link>
+    <description>Recent content in Macos on Drum Machine Funk</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 06 Oct 2026 15:30:00 +0200</lastBuildDate>
+    <atom:link href="https://drummachinefunk.com/tags/macos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SPM-12</title>
+      <link>https://drummachinefunk.com/apps/spm12/</link>
+      <pubDate>Tue, 06 Oct 2026 15:30:00 +0200</pubDate>
+      <guid>https://drummachinefunk.com/apps/spm12/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
