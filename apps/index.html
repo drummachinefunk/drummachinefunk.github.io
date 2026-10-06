@@ -5,8 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
     <title>Applications | Drum Machine Funk</title>
-    <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width,minimum-scale=1"><meta name="description" content="Companion apps for samplers, drum machines, synthesizers, effects processors, radio, and pixel graphics.">
     <meta name="generator" content="Hugo 0.146.5">
     
     
@@ -16,7 +15,7 @@
     
 
     
-<link rel="stylesheet" href="https://drummachinefunk.com/dmf/css/main.min.6c19e1774e97cf91daa7959cfcf90a001003152b315ccebed7f96257a3ea9069.css" >
+<link rel="stylesheet" href="https://drummachinefunk.com/dmf/css/main.min.5479d1ce98e9bc8504d60dd0568234a610467e0c1f0c76bffef7286356785aee.css" >
 
 
 
@@ -50,35 +49,36 @@
     <meta property="og:url" content="https://drummachinefunk.com/apps/">
   <meta property="og:site_name" content="Drum Machine Funk">
   <meta property="og:title" content="Applications">
+  <meta property="og:description" content="Companion apps for samplers, drum machines, synthesizers, effects processors, radio, and pixel graphics.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="website">
 
   <meta itemprop="name" content="Applications">
+  <meta itemprop="description" content="Companion apps for samplers, drum machines, synthesizers, effects processors, radio, and pixel graphics.">
   <meta itemprop="datePublished" content="2025-04-28T09:05:44+02:00">
   <meta itemprop="dateModified" content="2025-04-28T09:05:44+02:00">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Applications">
+  <meta name="twitter:description" content="Companion apps for samplers, drum machines, synthesizers, effects processors, radio, and pixel graphics.">
 
       
     
 	
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 
   </head><body class="ma0 helvetica bg-near-white production">
 
     
   <nav class="w-100 z-5" style="position: fixed;" role="navigation">
   <div class="flex-l center top-menu-container">
-    <input type="checkbox" id="menu-toggle" class="menu-toggle" />
     <div id="top_header" class="db pv3 ph3 ph4-ns bg-black flex items-center">
       <a href="/" class="hover-white block white-90 no-underline">
         
           <img src="/logo.svg" class="v-mid w100 mw5-ns" alt="Drum Machine Funk" />
         
       </a>
-      <label id="menu-label" class="ml-auto" for="menu-toggle">
-        <img id="menu-icon" height="24" width="24" src="https://drummachinefunk.com/images/menu_icon.svg" />
-      </label>
+      <button id="menu-toggle" class="ml-auto" type="button" aria-expanded="false" aria-controls="top-menu" aria-label="Open navigation menu">
+        <img id="menu-icon" height="24" width="24" src="https://drummachinefunk.com/images/menu_icon.svg" alt="" aria-hidden="true">
+      </button>
     </div>
     <div id="top-menu" class="ml-auto-l pv2 bg-black w-100 w-auto-l mr3-l">
       
@@ -116,11 +116,38 @@
   </div>
 </nav>
 
+<script>
+  (() => {
+    const menuContainer = document.querySelector('.top-menu-container');
+    const menuButton = document.getElementById('menu-toggle');
+
+    if (!menuContainer || !menuButton) return;
+
+    const setMenuState = (isOpen) => {
+      menuContainer.classList.toggle('menu-open', isOpen);
+      menuButton.setAttribute('aria-expanded', String(isOpen));
+      menuButton.setAttribute('aria-label', isOpen ? 'Close navigation menu' : 'Open navigation menu');
+    };
+
+    menuButton.addEventListener('click', () => {
+      setMenuState(menuButton.getAttribute('aria-expanded') !== 'true');
+    });
+
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape' && menuButton.getAttribute('aria-expanded') === 'true') {
+        setMenuState(false);
+        menuButton.focus();
+      }
+    });
+  })();
+</script>
+
 
     <main role="main">
       
   <article class="pa3 pa4-ns nested-copy-line-height">
-    <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy nested-links mid-gray"></section>
+    <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy nested-links mid-gray">
+      <h1 class="white">Applications</h1></section>
     <section class="flex mt5 mh4 mw8 center flex-wrap justify-center">
       
         <div class="w-100 mb4 mh4 relative white" style="width:200px">
@@ -133,10 +160,10 @@
       <div class="flex-column tc flex dim">
         
           <div class="w-100">
-            <img src="https://drummachinefunk.com/images/cornerman_icon.svg" width="200" class="img" alt="image from Cornerman">
+            <img src="https://drummachinefunk.com/images/cornerman_icon.svg" width="200" class="img" alt="Cornerman app icon">
           </div>
         
-        <h1 class="mt2 f4 fw4">Cornerman</h1>
+        <h2 class="mt2 f4 fw4">Cornerman</h2>
       </div>
     </div>
   </a>
@@ -154,10 +181,10 @@
       <div class="flex-column tc flex dim">
         
           <div class="w-100">
-            <img src="https://drummachinefunk.com/images/sl950_icon.svg" width="200" class="img" alt="image from SL950">
+            <img src="https://drummachinefunk.com/images/sl950_icon.svg" width="200" class="img" alt="SL950 app icon">
           </div>
         
-        <h1 class="mt2 f4 fw4">SL950</h1>
+        <h2 class="mt2 f4 fw4">SL950</h2>
       </div>
     </div>
   </a>
@@ -175,10 +202,10 @@
       <div class="flex-column tc flex dim">
         
           <div class="w-100">
-            <img src="https://drummachinefunk.com/images/bassliner_icon.svg" width="200" class="img" alt="image from Bassliner">
+            <img src="https://drummachinefunk.com/images/bassliner_icon.svg" width="200" class="img" alt="Bassliner app icon">
           </div>
         
-        <h1 class="mt2 f4 fw4">Bassliner</h1>
+        <h2 class="mt2 f4 fw4">Bassliner</h2>
       </div>
     </div>
   </a>
@@ -196,10 +223,10 @@
       <div class="flex-column tc flex dim">
         
           <div class="w-100">
-            <img src="https://drummachinefunk.com/images/spl12_icon.png" width="200" class="img" alt="image from SPL-12">
+            <img src="https://drummachinefunk.com/images/spl12_icon.png" width="200" class="img" alt="SPL-12 app icon">
           </div>
         
-        <h1 class="mt2 f4 fw4">SPL-12</h1>
+        <h2 class="mt2 f4 fw4">SPL-12</h2>
       </div>
     </div>
   </a>
@@ -217,10 +244,10 @@
       <div class="flex-column tc flex dim">
         
           <div class="w-100">
-            <img src="https://drummachinefunk.com/images/spl44_icon.png" width="200" class="img" alt="image from SPL-44">
+            <img src="https://drummachinefunk.com/images/spl44_icon.png" width="200" class="img" alt="SPL-44 app icon">
           </div>
         
-        <h1 class="mt2 f4 fw4">SPL-44</h1>
+        <h2 class="mt2 f4 fw4">SPL-44</h2>
       </div>
     </div>
   </a>
@@ -238,10 +265,10 @@
       <div class="flex-column tc flex dim">
         
           <div class="w-100">
-            <img src="https://drummachinefunk.com/images/idp4_icon.png" width="200" class="img" alt="image from iDP/4">
+            <img src="https://drummachinefunk.com/images/idp4_icon.png" width="200" class="img" alt="iDP/4 app icon">
           </div>
         
-        <h1 class="mt2 f4 fw4">iDP/4</h1>
+        <h2 class="mt2 f4 fw4">iDP/4</h2>
       </div>
     </div>
   </a>
@@ -259,10 +286,10 @@
       <div class="flex-column tc flex dim">
         
           <div class="w-100">
-            <img src="https://drummachinefunk.com/images/tilos_radio_icon.png" width="200" class="img" alt="image from Tilos Radio">
+            <img src="https://drummachinefunk.com/images/tilos_radio_icon.png" width="200" class="img" alt="Tilos Radio app icon">
           </div>
         
-        <h1 class="mt2 f4 fw4">Tilos Radio</h1>
+        <h2 class="mt2 f4 fw4">Tilos Radio</h2>
       </div>
     </div>
   </a>
@@ -280,10 +307,10 @@
       <div class="flex-column tc flex dim">
         
           <div class="w-100">
-            <img src="https://drummachinefunk.com/images/lahmacun_icon.svg" width="200" class="img" alt="image from Lahmacun Radio">
+            <img src="https://drummachinefunk.com/images/lahmacun_icon.svg" width="200" class="img" alt="Lahmacun Radio app icon">
           </div>
         
-        <h1 class="mt2 f4 fw4">Lahmacun Radio</h1>
+        <h2 class="mt2 f4 fw4">Lahmacun Radio</h2>
       </div>
     </div>
   </a>
@@ -301,10 +328,10 @@
       <div class="flex-column tc flex dim">
         
           <div class="w-100">
-            <img src="https://drummachinefunk.com/images/pixel_works_icon.webp" width="200" class="img" alt="image from Pixel Works">
+            <img src="https://drummachinefunk.com/images/pixel_works_icon.webp" width="200" class="img" alt="Pixel Works app icon">
           </div>
         
-        <h1 class="mt2 f4 fw4">Pixel Works</h1>
+        <h2 class="mt2 f4 fw4">Pixel Works</h2>
       </div>
     </div>
   </a>
@@ -317,26 +344,26 @@
     </main>
     <footer class="flex-l w-100 bg-black bottom-0 w-100 pa3" role="contentinfo">
     <div class="ph3 mb3">
-      <img style="display:block" src="https://drummachinefunk.com/images/logo_outline.svg" alt="Site logo"></img>
+      <img style="display:block" src="https://drummachinefunk.com/images/logo_outline.svg" alt="Drum Machine Funk">
       <a class="mt2 hover-white white-70 dib-ns no-underline f7" href="https://drummachinefunk.com/" >
-        &copy; 2025.  Drum Machine Funk 
+        &copy; 2026.  Drum Machine Funk 
       </a>
-      <div class="mt3"><div class="dmf-socials"><a class="mr3" href="https://www.facebook.com/drummachinefunk" target="_blank" rel="noopener"
-        class="dmf-social-link link-transition facebook link dib z-999 pt3 pt0-l mr1"
+      <div class="mt3"><div class="dmf-socials"><a href="https://www.facebook.com/drummachinefunk" target="_blank" rel="noopener"
+        class="dmf-social-link link-transition facebook link dib z-999 pt3 pt0-l mr3"
         title="follow on Facebook - Opens in a new window"
         aria-label="follow on Facebook - Opens in a new window">
       <span class="icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"/></svg>
             
-          </span></a><a class="mr3" href="https://www.instagram.com/drummachinefunk/" target="_blank" rel="noopener"
-        class="dmf-social-link link-transition instagram link dib z-999 pt3 pt0-l mr1"
+          </span></a><a href="https://www.instagram.com/drummachinefunk/" target="_blank" rel="noopener"
+        class="dmf-social-link link-transition instagram link dib z-999 pt3 pt0-l mr3"
         title="follow on Instagram - Opens in a new window"
         aria-label="follow on Instagram - Opens in a new window">
       <span class="icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
             
-          </span></a><a class="mr3" href="https://www.youtube.com/@drummachinefunk" target="_blank" rel="noopener"
-        class="dmf-social-link link-transition youtube link dib z-999 pt3 pt0-l mr1"
+          </span></a><a href="https://www.youtube.com/@drummachinefunk" target="_blank" rel="noopener"
+        class="dmf-social-link link-transition youtube link dib z-999 pt3 pt0-l mr3"
         title="follow on YouTube - Opens in a new window"
         aria-label="follow on YouTube - Opens in a new window">
       <span class="icon">
@@ -387,7 +414,6 @@
       </ul>
     </div>
 </footer>
-
 
   </body>
 </html>

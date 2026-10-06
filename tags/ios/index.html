@@ -5,8 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
     <title>Drum Machine Funk</title>
-    <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width,minimum-scale=1"><meta name="description" content="Drum Machine Funk creates focused companion apps and original music technology for musicians.">
     <meta name="generator" content="Hugo 0.146.5">
     
     
@@ -16,7 +15,7 @@
     
 
     
-<link rel="stylesheet" href="https://drummachinefunk.com/dmf/css/main.min.6c19e1774e97cf91daa7959cfcf90a001003152b315ccebed7f96257a3ea9069.css" >
+<link rel="stylesheet" href="https://drummachinefunk.com/dmf/css/main.min.5479d1ce98e9bc8504d60dd0568234a610467e0c1f0c76bffef7286356785aee.css" >
 
 
 
@@ -50,19 +49,21 @@
     <meta property="og:url" content="https://drummachinefunk.com/tags/ios/">
   <meta property="og:site_name" content="Drum Machine Funk">
   <meta property="og:title" content="Ios">
+  <meta property="og:description" content="Drum Machine Funk creates focused companion apps and original music technology for musicians.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="website">
 
   <meta itemprop="name" content="Ios">
+  <meta itemprop="description" content="Drum Machine Funk creates focused companion apps and original music technology for musicians.">
   <meta itemprop="datePublished" content="2025-04-28T09:05:44+02:00">
   <meta itemprop="dateModified" content="2025-04-28T09:05:44+02:00">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Ios">
+  <meta name="twitter:description" content="Drum Machine Funk creates focused companion apps and original music technology for musicians.">
 
       
     
 	
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 
   </head><body class="ma0 helvetica bg-near-white production">
 
@@ -72,16 +73,15 @@
     <div class="pb3-m pb6-l bg-black">
       <nav class="w-100 z-5" style="position: fixed;" role="navigation">
   <div class="flex-l center top-menu-container">
-    <input type="checkbox" id="menu-toggle" class="menu-toggle" />
     <div id="top_header" class="db pv3 ph3 ph4-ns bg-black flex items-center">
       <a href="/" class="hover-white block white-90 no-underline">
         
           <img src="/logo.svg" class="v-mid w100 mw5-ns" alt="Drum Machine Funk" />
         
       </a>
-      <label id="menu-label" class="ml-auto" for="menu-toggle">
-        <img id="menu-icon" height="24" width="24" src="https://drummachinefunk.com/images/menu_icon.svg" />
-      </label>
+      <button id="menu-toggle" class="ml-auto" type="button" aria-expanded="false" aria-controls="top-menu" aria-label="Open navigation menu">
+        <img id="menu-icon" height="24" width="24" src="https://drummachinefunk.com/images/menu_icon.svg" alt="" aria-hidden="true">
+      </button>
     </div>
     <div id="top-menu" class="ml-auto-l pv2 bg-black w-100 w-auto-l mr3-l">
       
@@ -119,6 +119,32 @@
   </div>
 </nav>
 
+<script>
+  (() => {
+    const menuContainer = document.querySelector('.top-menu-container');
+    const menuButton = document.getElementById('menu-toggle');
+
+    if (!menuContainer || !menuButton) return;
+
+    const setMenuState = (isOpen) => {
+      menuContainer.classList.toggle('menu-open', isOpen);
+      menuButton.setAttribute('aria-expanded', String(isOpen));
+      menuButton.setAttribute('aria-label', isOpen ? 'Close navigation menu' : 'Open navigation menu');
+    };
+
+    menuButton.addEventListener('click', () => {
+      setMenuState(menuButton.getAttribute('aria-expanded') !== 'true');
+    });
+
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape' && menuButton.getAttribute('aria-expanded') === 'true') {
+        setMenuState(false);
+        menuButton.focus();
+      }
+    });
+  })();
+</script>
+
       <div class="tc-l pv3 ph3 ph4-ns">
         <h1 class="f2 f-subheadline-l fw2 light-silver mb0 lh-title">
           Ios
@@ -143,11 +169,11 @@
           <div class="w-100 mb4 nested-copy-line-height relative bg-white">
   <div class="mb3 pa4 gray overflow-hidden bg-white">
     <span class="f6 db">Applications</span>
-    <h1 class="f3 near-black">
+    <h2 class="f3 near-black">
       <a href="/apps/cornerman/" class="link black dim">
         Cornerman
       </a>
-    </h1>
+    </h2>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
       <p>Cornerman is a companion app for the Teenage Engineering KO II sampler composer.<br>
 The app uses a USB-C connection to save and restore backups from the KO II.</p>
@@ -162,11 +188,11 @@ The app uses a USB-C connection to save and restore backups from the KO II.</p>
           <div class="w-100 mb4 nested-copy-line-height relative bg-white">
   <div class="mb3 pa4 gray overflow-hidden bg-white">
     <span class="f6 db">Applications</span>
-    <h1 class="f3 near-black">
+    <h2 class="f3 near-black">
       <a href="/apps/sl950/" class="link black dim">
         SL950
       </a>
-    </h1>
+    </h2>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
       <p>SL950 is an iPad and iPhone application that connects to your AKAI S950 sampler over a MIDI connection and let&rsquo;s you edit all parameters of the programs and samples. Speed up your workflow by creating and generating keygroups and chopping up samples!</p>
     </div>
@@ -180,11 +206,11 @@ The app uses a USB-C connection to save and restore backups from the KO II.</p>
           <div class="w-100 mb4 nested-copy-line-height relative bg-white">
   <div class="mb3 pa4 gray overflow-hidden bg-white">
     <span class="f6 db">Applications</span>
-    <h1 class="f3 near-black">
+    <h2 class="f3 near-black">
       <a href="/apps/bassliner/" class="link black dim">
         Bassliner
       </a>
-    </h1>
+    </h2>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
       
     </div>
@@ -198,11 +224,11 @@ The app uses a USB-C connection to save and restore backups from the KO II.</p>
           <div class="w-100 mb4 nested-copy-line-height relative bg-white">
   <div class="mb3 pa4 gray overflow-hidden bg-white">
     <span class="f6 db">Applications</span>
-    <h1 class="f3 near-black">
+    <h2 class="f3 near-black">
       <a href="/apps/spl12/" class="link black dim">
         SPL-12
       </a>
-    </h1>
+    </h2>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
       <p>The SPL-12 Sampling Percussion Librarian is a companion app for the E-mu SP-12 Sampling Percussion drum machine.The application makes no sound on it&rsquo;s own. It&rsquo;s purpuse is to provide a convenient way to save and load sequencer and sound memory data via a MIDI connection.We hope enthusiasts will find this utility useful and keep the spirit of 12-bit sampling alive for many years to come. Enjoy!</p>
     </div>
@@ -216,11 +242,11 @@ The app uses a USB-C connection to save and restore backups from the KO II.</p>
           <div class="w-100 mb4 nested-copy-line-height relative bg-white">
   <div class="mb3 pa4 gray overflow-hidden bg-white">
     <span class="f6 db">Applications</span>
-    <h1 class="f3 near-black">
+    <h2 class="f3 near-black">
       <a href="/apps/spl44/" class="link black dim">
         SPL-44
       </a>
-    </h1>
+    </h2>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
       
     </div>
@@ -234,11 +260,11 @@ The app uses a USB-C connection to save and restore backups from the KO II.</p>
           <div class="w-100 mb4 nested-copy-line-height relative bg-white">
   <div class="mb3 pa4 gray overflow-hidden bg-white">
     <span class="f6 db">Applications</span>
-    <h1 class="f3 near-black">
+    <h2 class="f3 near-black">
       <a href="/apps/idp4/" class="link black dim">
         iDP/4
       </a>
-    </h1>
+    </h2>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
       <p>iDP/4 is an iPad application that connects to your Ensoniq DP/4 over a MIDI connection and let&rsquo;s you edit all parameters of the 4 effect blocks as well as the routing between them.</p>
     </div>
@@ -252,11 +278,11 @@ The app uses a USB-C connection to save and restore backups from the KO II.</p>
           <div class="w-100 mb4 nested-copy-line-height relative bg-white">
   <div class="mb3 pa4 gray overflow-hidden bg-white">
     <span class="f6 db">Applications</span>
-    <h1 class="f3 near-black">
+    <h2 class="f3 near-black">
       <a href="/apps/tilos-radio/" class="link black dim">
         Tilos Radio
       </a>
-    </h1>
+    </h2>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
       <p>Tilos Radio is a unique and independent radio station based in Budapest, Hungary, known for its progressive voice and community-oriented approach. Since its inception in the early 1990s, Tilos has championed freedom of speech, diversity of opinion, and artistic experimentation, making it a prominent alternative to mainstream media in the region. Originally broadcasting illegally as a pirate station, Tilos—meaning &ldquo;forbidden&rdquo; in Hungarian—has since evolved into a legal and widely respected platform for underground music, social commentary, and grassroots activism.</p>
     </div>
@@ -270,11 +296,11 @@ The app uses a USB-C connection to save and restore backups from the KO II.</p>
           <div class="w-100 mb4 nested-copy-line-height relative bg-white">
   <div class="mb3 pa4 gray overflow-hidden bg-white">
     <span class="f6 db">Applications</span>
-    <h1 class="f3 near-black">
+    <h2 class="f3 near-black">
       <a href="/apps/lahmacun-radio/" class="link black dim">
         Lahmacun Radio
       </a>
-    </h1>
+    </h2>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
       <p>Lahmacun Radio is a Budapest-based online community radio station founded in 2018, showcasing the city’s various subcultures and musical scenes. The station&rsquo;s studio is located in Kazán Community House, situated in District VIII, on the grounds of a former factory that now hosts numerous cultural and social projects.</p>
 <p>Lahmacun Radio works not only with local but also international hosts, including contributors from Brussels, Edinburgh, Berlin, San Francisco, and Belgrade. Additionally, it collaborates with other online radio stations such as Radio Kapital from Poland, Cashmere Radio from Germany, and IDA Radio from Estonia.</p>
@@ -289,11 +315,11 @@ The app uses a USB-C connection to save and restore backups from the KO II.</p>
           <div class="w-100 mb4 nested-copy-line-height relative bg-white">
   <div class="mb3 pa4 gray overflow-hidden bg-white">
     <span class="f6 db">Applications</span>
-    <h1 class="f3 near-black">
+    <h2 class="f3 near-black">
       <a href="/apps/pixel-works/" class="link black dim">
         Pixel Works
       </a>
-    </h1>
+    </h2>
     <div class="nested-links f5 lh-copy nested-copy-line-height">
       <p>Pixel Works is a graphics application to design small pixel graphics, animations and fonts for monochrome displays.
 Design small animations and pixel fonts for embedded projects and OLED screens.</p>
@@ -311,26 +337,26 @@ Design small animations and pixel fonts for embedded projects and OLED screens.<
     </main>
     <footer class="flex-l w-100 bg-black bottom-0 w-100 pa3" role="contentinfo">
     <div class="ph3 mb3">
-      <img style="display:block" src="https://drummachinefunk.com/images/logo_outline.svg" alt="Site logo"></img>
+      <img style="display:block" src="https://drummachinefunk.com/images/logo_outline.svg" alt="Drum Machine Funk">
       <a class="mt2 hover-white white-70 dib-ns no-underline f7" href="https://drummachinefunk.com/" >
-        &copy; 2025.  Drum Machine Funk 
+        &copy; 2026.  Drum Machine Funk 
       </a>
-      <div class="mt3"><div class="dmf-socials"><a class="mr3" href="https://www.facebook.com/drummachinefunk" target="_blank" rel="noopener"
-        class="dmf-social-link link-transition facebook link dib z-999 pt3 pt0-l mr1"
+      <div class="mt3"><div class="dmf-socials"><a href="https://www.facebook.com/drummachinefunk" target="_blank" rel="noopener"
+        class="dmf-social-link link-transition facebook link dib z-999 pt3 pt0-l mr3"
         title="follow on Facebook - Opens in a new window"
         aria-label="follow on Facebook - Opens in a new window">
       <span class="icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"/></svg>
             
-          </span></a><a class="mr3" href="https://www.instagram.com/drummachinefunk/" target="_blank" rel="noopener"
-        class="dmf-social-link link-transition instagram link dib z-999 pt3 pt0-l mr1"
+          </span></a><a href="https://www.instagram.com/drummachinefunk/" target="_blank" rel="noopener"
+        class="dmf-social-link link-transition instagram link dib z-999 pt3 pt0-l mr3"
         title="follow on Instagram - Opens in a new window"
         aria-label="follow on Instagram - Opens in a new window">
       <span class="icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
             
-          </span></a><a class="mr3" href="https://www.youtube.com/@drummachinefunk" target="_blank" rel="noopener"
-        class="dmf-social-link link-transition youtube link dib z-999 pt3 pt0-l mr1"
+          </span></a><a href="https://www.youtube.com/@drummachinefunk" target="_blank" rel="noopener"
+        class="dmf-social-link link-transition youtube link dib z-999 pt3 pt0-l mr3"
         title="follow on YouTube - Opens in a new window"
         aria-label="follow on YouTube - Opens in a new window">
       <span class="icon">
@@ -381,7 +407,6 @@ Design small animations and pixel fonts for embedded projects and OLED screens.<
       </ul>
     </div>
 </footer>
-
 
   </body>
 </html>
