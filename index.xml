@@ -6,7 +6,7 @@
     <description>Recent content on Drum Machine Funk</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 06 Oct 2026 15:30:00 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 10:00:00 +0100</lastBuildDate>
     <atom:link href="https://drummachinefunk.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cornerman</title>
@@ -72,6 +72,13 @@
       <description>&lt;p&gt;Pixel Works is a graphics application to design small pixel graphics, animations and fonts for monochrome displays.&#xA;Design small animations and pixel fonts for embedded projects and OLED screens.&lt;/p&gt;&#xA;&lt;p&gt;The application supports export to animated GIF and &lt;a href=&#34;https://github.com/adafruit/Adafruit-GFX-Library&#34;&gt;GFXFont&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Vinyl Discovery</title>
+      <link>https://drummachinefunk.com/apps/vinyl-discovery/</link>
+      <pubDate>Tue, 17 Nov 2026 10:00:00 +0100</pubDate>
+      <guid>https://drummachinefunk.com/apps/vinyl-discovery/</guid>
+      <description>&lt;p&gt;Vinyl Discovery is a record-digging app built on the Discogs catalog.&#xA;Pick a genre, a style, a year or a country, and the app turns the results into a playlist that plays each release&amp;rsquo;s videos from YouTube, one record after another.&lt;/p&gt;&#xA;&lt;p&gt;Start with a curated pocket, such as 1984 Japanese city pop or 1992 Detroit techno, or build your own search and let it play.&#xA;When something catches your ear, save it to a YouTube playlist or open the release on Discogs to add it to your wantlist.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>SPM-12</title>
       <link>https://drummachinefunk.com/apps/spm12/</link>
       <pubDate>Tue, 06 Oct 2026 15:30:00 +0200</pubDate>
@@ -98,6 +105,20 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://drummachinefunk.com/privacy/</guid>
       <description>&lt;p&gt;We take your privacy seriously. This app does not collect any personal data or information from its users. We do not track your usage, access your contacts, or gather any other data from your device. Your privacy is important to us, and we are committed to ensuring that your information remains secure and confidential. This app may utilize certain features provided by the iOS platform, such as access to the camera or microphone, but these features are only used to provide functionality within the app itself and are not used to collect or transmit any personal data. By using this app, you agree to this privacy policy. If you have any questions or concerns about our privacy practices, please contact us at &lt;a href=&#34;mailto:hello@drummachinefunk.com&#34;&gt;hello@drummachinefunk.com&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Vinyl Discovery Privacy Policy</title>
+      <link>https://drummachinefunk.com/apps/vinyl-discovery/privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://drummachinefunk.com/apps/vinyl-discovery/privacy/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Last updated: November 17, 2026&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Vinyl Discovery is made by Drum Machine Funk. We don&amp;rsquo;t run our own servers for the app, and we don&amp;rsquo;t collect analytics or show ads. This policy explains what the app stores and which third-party services it uses.&lt;/p&gt;&#xA;&lt;h2 id=&#34;data-stored-on-your-device&#34;&gt;Data stored on your device&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Sign-in tokens.&lt;/strong&gt; When you sign in with Discogs or Google, the app stores the access tokens in the iOS Keychain on your device. They are used only to talk to those services on your behalf.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Your Discogs username&lt;/strong&gt; and basic session details, used to show your account in Settings.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Recent searches&lt;/strong&gt; and the number of releases you played today, used for search suggestions and the free daily limit.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Signing out in Settings removes the stored tokens. Deleting the app removes all of this data from your device.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Vinyl Discovery Terms of Use</title>
+      <link>https://drummachinefunk.com/apps/vinyl-discovery/terms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://drummachinefunk.com/apps/vinyl-discovery/terms/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Last updated: November 17, 2026&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;By using Vinyl Discovery you agree to these terms and to Apple&amp;rsquo;s &lt;a href=&#34;https://www.apple.com/legal/internet-services/itunes/dev/stdeula/&#34;&gt;Standard End User License Agreement&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;free-use-and-subscriptions&#34;&gt;Free use and subscriptions&lt;/h2&gt;&#xA;&lt;p&gt;Vinyl Discovery is free to use with a daily limit of 10 releases. A paid plan removes the limit:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Monthly and yearly subscriptions&lt;/strong&gt; are charged to your Apple ID when you confirm the purchase. They renew automatically unless you cancel at least 24 hours before the end of the current period. You can manage or cancel your subscription in your &lt;a href=&#34;https://apps.apple.com/account/subscriptions&#34;&gt;App Store account settings&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Lifetime&lt;/strong&gt; is a one-time purchase with no renewal.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Prices are shown in the app before you buy. Refunds are handled by Apple under its own policies. You can restore earlier purchases from Settings.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

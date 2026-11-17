@@ -6,7 +6,7 @@
     <description>Recent content in Ios on Drum Machine Funk</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 06 Oct 2026 15:30:00 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 10:00:00 +0100</lastBuildDate>
     <atom:link href="https://drummachinefunk.com/tags/ios/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cornerman</title>
@@ -70,6 +70,13 @@
       <pubDate>Mon, 28 Apr 2025 09:05:44 +0200</pubDate>
       <guid>https://drummachinefunk.com/apps/pixel-works/</guid>
       <description>&lt;p&gt;Pixel Works is a graphics application to design small pixel graphics, animations and fonts for monochrome displays.&#xA;Design small animations and pixel fonts for embedded projects and OLED screens.&lt;/p&gt;&#xA;&lt;p&gt;The application supports export to animated GIF and &lt;a href=&#34;https://github.com/adafruit/Adafruit-GFX-Library&#34;&gt;GFXFont&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Vinyl Discovery</title>
+      <link>https://drummachinefunk.com/apps/vinyl-discovery/</link>
+      <pubDate>Tue, 17 Nov 2026 10:00:00 +0100</pubDate>
+      <guid>https://drummachinefunk.com/apps/vinyl-discovery/</guid>
+      <description>&lt;p&gt;Vinyl Discovery is a record-digging app built on the Discogs catalog.&#xA;Pick a genre, a style, a year or a country, and the app turns the results into a playlist that plays each release&amp;rsquo;s videos from YouTube, one record after another.&lt;/p&gt;&#xA;&lt;p&gt;Start with a curated pocket, such as 1984 Japanese city pop or 1992 Detroit techno, or build your own search and let it play.&#xA;When something catches your ear, save it to a YouTube playlist or open the release on Discogs to add it to your wantlist.&lt;/p&gt;</description>
     </item>
     <item>
       <title>SPM-12</title>
